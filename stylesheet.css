@@ -1,0 +1,108 @@
+h1 {
+  font-size: xx-large
+  position: center
+}
+
+h2 {
+  font-size: 30px
+}
+
+h3 {
+   font-weight: bolder;
+   font-size: 30px
+}
+
+h4 {
+  font-size: 15px
+}
+
+.header {
+  position: fixed;
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  display: none;
+}
+
+.logo {
+  width: 20px;
+}
+
+.top-wrapper {
+  padding: 100px 0 20px 0;
+  background-image: url(https://i.imgur.com/Ctgv7lCg.png);
+  background-size: cover;
+  text-align: center;
+  margin-bottom: 100px;
+
+}
+
+.flex-content {
+  display: flex;
+}
+
+.intruksi {
+  margin-top: 50px
+}
+
+.itruksi p {
+  margin-bottom: 20
+  font-size: 200px
+}
+
+.flex-sidebars {
+  display: flex;
+}
+
+.items {
+  margin-top: 50px
+}
+
+.item {
+  margin-top: 50px
+}
+
+.item-icon {
+  text-align: center;
+  position: relative;
+
+}
+.item-icon h4 {
+  position: absolute;
+  top: 15px;
+  width: 100%;
+  color: red;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.main {
+margin-top: : 50px;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.btn-wrapper {
+  text-align: center;
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}

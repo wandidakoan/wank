@@ -1,0 +1,32 @@
+@media (max-width: 670px) {
+  .container {
+    flexwrap: wrap;
+  }
+  .sidebar {
+    margin-top: 50px
+  }
+  .flex-content{
+    flex-direction:column;
+    width: 100%;
+  }
+  .boy {
+    display: none;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    flexwrap: wrap
+  }
+  .sidebar {
+    margin-top: 50px
+  }
+  .flex-content{
+    flex-direction:column;
+    width: 100%;}
+
+    .intruksi {
+      margin-top: 0 auto;}
+
+    .top-wrapper {
+      margin-bottom: 30px
+}
